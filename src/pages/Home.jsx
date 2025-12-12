@@ -78,9 +78,6 @@ export default function Home() {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-600 to-teal-700 flex items-center justify-center shadow-lg shadow-emerald-200">
-              <Wind className="w-5 h-5 text-white" />
-            </div>
             <div>
               <span className="text-xl font-semibold text-gray-900 tracking-tight">HomeSense AI</span>
               <span className="ml-2 text-lg text-emerald-700 font-medium">居感</span>
@@ -128,16 +125,13 @@ export default function Home() {
               Unlock the flow of positive energy in your home.
             </motion.p>
             
-            <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
+            <motion.div variants={fadeInUp}>
               <a href="https://discord.gg/ZTfDnKtp" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white rounded-full px-8 py-6 text-lg font-medium shadow-xl shadow-emerald-200/50 transition-all hover:shadow-2xl hover:shadow-emerald-300/50 group">
                   Start Your Journey
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
-              <Button variant="ghost" className="text-gray-600 hover:text-gray-900 rounded-full px-8 py-6 text-lg font-medium">
-                Learn More
-              </Button>
             </motion.div>
           </motion.div>
 
