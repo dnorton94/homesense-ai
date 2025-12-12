@@ -92,13 +92,13 @@ export default function Home() {
       </motion.nav>
 
       {/* Hero Section */}
-      <section className="relative z-10 px-6 md:px-12 lg:px-20 pt-12 md:pt-20 pb-24">
+      <section className="relative z-10 px-6 md:px-12 lg:px-20 pt-12 md:pt-20 pb-24 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <motion.div 
             variants={stagger}
             initial="initial"
             animate="animate"
-            className="max-w-4xl"
+            className="max-w-5xl"
           >
             <motion.div variants={fadeInUp} className="mb-6">
               <span className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-50 text-emerald-700 rounded-full text-sm font-medium border border-emerald-100">
@@ -109,7 +109,7 @@ export default function Home() {
             
             <motion.h1 
               variants={fadeInUp}
-              className="text-5xl md:text-7xl lg:text-8xl font-light text-gray-900 tracking-tight leading-[1.1] mb-8"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-gray-900 tracking-tight leading-[1.1] mb-8"
             >
               Harmonize your
               <span className="block font-medium bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 bg-clip-text text-transparent">
