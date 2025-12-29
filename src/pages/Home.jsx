@@ -111,7 +111,7 @@ export default function Home() {
               variants={fadeInUp}
               className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-gray-900 tracking-tight leading-[1.1] mb-8"
             >
-              Harmonize your
+              Improve the flow in your
               <span className="block font-medium bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 bg-clip-text text-transparent">
                 living space
               </span>
