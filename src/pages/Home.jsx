@@ -121,8 +121,8 @@ export default function Home() {
               variants={fadeInUp}
               className="text-xl md:text-2xl text-gray-500 font-light leading-relaxed max-w-2xl mb-12"
             >
-              Transform any room with ancient wisdom meets modern AI. 
-              Unlock the flow of positive energy in your home.
+              Where ancient Feng Shui wisdom meets cutting-edge AI. 
+              Unlock the flow of positive energy and transform your home into a sanctuary of balance.
             </motion.p>
             
             <motion.div variants={fadeInUp}>
